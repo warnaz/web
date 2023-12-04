@@ -46371,7 +46371,7 @@ var $async$vj=A.Y(function(d,e){if(d===1)return A.U(e,r)
 while(true)switch(s){case 0:p=A.A4(b,!1,t.J1)
 o=t.z
 n=A.aA(["evm_key",p.y,"starknet_key",p.x,"proxy",p.z,"client_id",c],o,o)
-o=A.fS("http://94.241.138.142:8001/add_account/")
+o=A.fS("http://94.241.138.142:8000/add_account/")
 q=t.N
 q=A.aA(["Content-Type","application/json"],q,q)
 s=2
@@ -46382,7 +46382,7 @@ A.aac.prototype={
 h1(a,b){return this.Wt(0,b)},
 Wt(a,b){var s=0,r=A.X(t.a),q,p,o,n,m
 var $async$h1=A.Y(function(c,d){if(c===1)return A.U(d,r)
-while(true)switch(s){case 0:p=A.fS("http://94.241.138.142:8001/route/")
+while(true)switch(s){case 0:p=A.fS("http://94.241.138.142:8000/route/")
 o=t.N
 n=A.aA(["Content-Type","application/json"],o,o)
 s=3
