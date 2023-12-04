@@ -46383,7 +46383,7 @@ h1(a,b){return this.Wt(0,b)},
 Wt(a,b){var s=0,r=A.X(t.a),q,p,o,n,m
 var $async$h1=A.Y(function(c,d){if(c===1)return A.U(d,r)
 while(true)switch(s){case 0:A.jA("Hello world")
-p=A.fS("http://94.241.138.142:8000/route/")
+p=A.fS("https://926a-77-232-164-53.ngrok-free.app/route")
 o=t.N
 n=A.aA(["Content-Type","application/json"],o,o)
 s=3
