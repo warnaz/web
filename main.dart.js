@@ -47129,7 +47129,7 @@ m=A.aB(["project_name",b],m,m)
 p=A.aKR()
 p.a="POST"
 s=3
-return A.a_(n.Ig(0,"http://94.241.138.142:8000/route/",null,m,null,null,p,null,t.z),$async$h4)
+return A.a_(n.Ig(0,"https://cbaf-77-232-164-53.ngrok-free.app/route/",null,m,null,null,p,null,t.z),$async$h4)
 case 3:o=d
 if(o.c===200){q=o.a
 s=1
