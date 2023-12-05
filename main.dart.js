@@ -9313,7 +9313,7 @@ this.b=b},
 al_:function al_(a,b){this.a=a
 this.b=b},
 lx:function lx(a){var _=this
-_.w=_.r=_.f=_.e=_.d=_.b=_.a=0
+_.w=_.r=_.f=_.e=_.d=_.c=_.b=_.a=0
 _.z=_.y=_.x=""
 _.fx$=0
 _.fy$=a
@@ -46249,7 +46249,7 @@ Wo(a,b){var s=0,r=A.X(t.z),q,p,o,n
 var $async$h_=A.Y(function(c,d){if(c===1)return A.U(d,r)
 while(true)switch(s){case 0:p=A.zX(b,!1,t.J1)
 o=t.z
-n=A.ay(["max_amount",p.d,"amount_bridge",p.e,"min_time",p.f,"max_time",p.r,"route_id",p.a,"wallet_id",p.b,"client_id",0,"max_gas",p.w],o,o)
+n=A.ay(["max_amount",p.d,"amount_bridge",p.e,"min_time",p.f,"max_time",p.r,"route_id",p.a,"wallet_id",p.b,"client_id",p.c,"max_gas",p.w],o,o)
 o=A.fM("https://a9dc-185-244-20-88.ngrok-free.app/run_bot/")
 q=t.N
 q=A.ay(["Content-Type","application/json"],q,q)
@@ -46315,6 +46315,8 @@ case 2:p=b
 o=q.b
 n=A.zX(o,!1,t.J1)
 n.a=m.e
+n.ai()
+n.c=1
 n.ai()
 if(o.e!=null){m=A.mX(new A.ala(p),null,t.z)
 A.em(o).hZ(m)}return A.V(null,r)}})
