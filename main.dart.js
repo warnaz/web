@@ -24672,12 +24672,11 @@ _.e=c
 _.a=d
 _.b=e},
 ae9:function ae9(a){this.b=a},
-Ok:function Ok(a,b,c,d,e){var _=this
-_.c=a
-_.d=b
-_.r=c
-_.at=d
-_.a=e},
+Ok:function Ok(a,b,c,d){var _=this
+_.d=a
+_.r=b
+_.at=c
+_.a=d},
 aeB:function aeB(){},
 aeC:function aeC(){},
 aeD:function aeD(){},
@@ -46153,13 +46152,13 @@ A.tC.prototype={
 aj(){return new A.Tl(B.k)}}
 A.Tl.prototype={
 O(a){var s=this,r=null,q=A.bO(a,r,t.w).w
-return new A.f1(B.dw,r,r,A.bg(r,new A.cq(B.G7,A.AF(A.a([s.xZ("\u0413\u043b\u0430\u0432\u043d\u0430\u044f","assets/menu_main.svg",0),s.xZ("\u0410\u043a\u043a\u0430\u0443\u043d\u0442\u044b","assets/menu_acc.svg",1),s.xZ("\u041f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u0430","assets/menu_support.svg",2),s.xZ("\u0420\u0435\u0444\u0435\u0440\u0430\u043b\u044b","assets/menu_ref.svg",3)],t.p),B.ag,B.L0,B.a2),r),B.l,r,r,B.As,r,70,r,r,r,r,q.a.a),r)},
+return new A.f1(B.dw,r,r,A.bg(r,new A.cq(B.G7,A.AF(A.a([s.xZ("\u0413\u043b\u0430\u0432\u043d\u0430\u044f","assets/menu_main.svg",0),s.xZ("\u0410\u043a\u043a\u0430\u0443\u043d\u0442\u044b","assets/menu_acc.svg",1),s.xZ("\u041f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u0430","assets/menu_support.svg",2),s.xZ("\u0420\u0435\u0444\u0435\u0440\u0430\u043b\u044b","assets/menu_ref.svg",3)],t.p),B.ag,B.L0,B.a2),r),B.l,r,r,B.As,r,50,r,r,r,r,q.a.a),r)},
 xZ(a,b,c){var s,r,q,p=null,o=c===this.d,n=o?B.tx:B.i
 n=new A.Je(n,B.i8,p,B.BL)
 s=A.dC(p,1,p)
 r=A.cZ(0,200)
 q=A.ep(p,p,o?B.tx:B.i,p,p,p,p,p,p,p,p,13,p,p,p,p,p,!0,p,p,p,p,p,p,p,p)
-return A.l_(p,A.ef(A.a([new A.Ok(30,30,new A.BC(b,p,p,p,p),n,p),s,A.ZY(A.fi(a,p,p,p,p,p,p),B.af,r,q)],t.p),B.ag,B.cz,B.a2),B.at,!1,p,p,p,p,p,p,p,p,p,p,p,p,p,p,new A.al6(this,c,a),p,p,p)}}
+return A.l_(p,A.ef(A.a([new A.Ok(25,new A.BC(b,p,p,p,p),n,p),s,A.ZY(A.fi(a,p,p,p,p,p,p),B.af,r,q)],t.p),B.ag,B.cz,B.a2),B.at,!1,p,p,p,p,p,p,p,p,p,p,p,p,p,p,new A.al6(this,c,a),p,p,p)}}
 A.al6.prototype={
 $0(){var s,r,q=this.a
 q.ak(new A.al4(q,this.b))
@@ -82530,8 +82529,8 @@ return s},
 k(a){return"SvgAssetLoader("+this.c+")"}}
 A.ae9.prototype={}
 A.Ok.prototype={
-O(a){var s=this,r=null
-return new A.Ck(s.r,s.c,s.d,B.At,B.a_,!1,r,!1,B.S,r,r,s.at,r,B.NR,!0,r)}}
+O(a){var s=null
+return new A.Ck(this.r,s,this.d,B.At,B.a_,!1,s,!1,B.S,s,s,this.at,s,B.NR,!0,s)}}
 A.aeB.prototype={}
 A.aeC.prototype={}
 A.aeD.prototype={}
@@ -84664,8 +84663,8 @@ r=h.e
 h=g.b
 q=h.ga_(h)
 if(!q)s=r/h.b*h.a
-else{q=h.ga_(h)
-if(!q)r=s/h.a*h.b}h=g.b
+h=g.b
+s.toString
 p=Math.min(h.a/s,h.b/r)
 if($.aDh()){q=j.d.b
 o=j.a
