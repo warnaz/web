@@ -47102,7 +47102,7 @@ var $async$vB=A.V(function(d,e){if(d===1)return A.R(e,r)
 while(true)switch(s){case 0:p=A.AB(b,!1,t.J1)
 o=t.z
 n=A.aB(["evm_key",p.y,"starknet_key",p.x,"proxy",p.z,"client_id",c],o,o)
-o=A.fY("http://94.241.138.142:8000/add_account/")
+o=A.fY("https://a9dc-185-244-20-88.ngrok-free.app/add_account/")
 q=t.N
 q=A.aB(["Content-Type","application/json"],q,q)
 s=2
@@ -47129,7 +47129,7 @@ m=A.aB(["project_name",b],m,m)
 p=A.aKR()
 p.a="POST"
 s=3
-return A.a_(n.Ig(0,"https://cbaf-77-232-164-53.ngrok-free.app/route/",null,m,null,null,p,null,t.z),$async$h4)
+return A.a_(n.Ig(0,"https://a9dc-185-244-20-88.ngrok-free.app/route/",null,m,null,null,p,null,t.z),$async$h4)
 case 3:o=d
 if(o.c===200){q=o.a
 s=1
@@ -47143,7 +47143,7 @@ var $async$h4=A.V(function(c,d){if(c===1)return A.R(d,r)
 while(true)switch(s){case 0:p=A.AB(b,!1,t.J1)
 o=t.z
 n=A.aB(["max_amount",p.d,"amount_bridge",p.e,"min_time",p.f,"max_time",p.r,"route_id",p.a,"wallet_id",p.b,"client_id",0,"max_gas",p.w],o,o)
-o=A.fY("http://94.241.138.142:8000/run_bot/")
+o=A.fY("https://a9dc-185-244-20-88.ngrok-free.app/run_bot/")
 q=t.N
 q=A.aB(["Content-Type","application/json"],q,q)
 s=2
@@ -47154,7 +47154,7 @@ A.ai8.prototype={
 h4(a,b){return this.X7(0,b)},
 X7(a,b){var s=0,r=A.U(t.j),q,p,o,n,m
 var $async$h4=A.V(function(c,d){if(c===1)return A.R(d,r)
-while(true)switch(s){case 0:p=A.fY("http://94.241.138.142:8000/wallet/")
+while(true)switch(s){case 0:p=A.fY("https://a9dc-185-244-20-88.ngrok-free.app/wallet/")
 o=t.N
 n=A.aB(["Content-Type","application/json"],o,o)
 s=3
