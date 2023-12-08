@@ -46303,7 +46303,7 @@ i=!1
 if(i){s=1
 break}i=t.z
 p=A.av(["evm_key",m,"starknet_key",l,"proxy",k,"wallet_name",j,"client_id",c],i,i)
-i=A.fm("https://33a9-185-244-21-92.ngrok-free.app/add_account/")
+i=A.fm("https://9293-77-232-164-34.ngrok-free.app/add_account/")
 o=t.N
 o=A.av(["Content-Type","application/json"],o,o)
 s=3
@@ -46314,13 +46314,13 @@ A.aa2.prototype={
 jG(a,b,c){return this.Wq(0,b,c)},
 Wq(a,b,c){var s=0,r=A.W(t.a),q,p,o,n,m
 var $async$jG=A.X(function(d,e){if(d===1)return A.T(e,r)
-while(true)switch(s){case 0:p=A.fm("https://33a9-185-244-21-92.ngrok-free.app/route/")
+while(true)switch(s){case 0:p=A.fm("https://9293-77-232-164-34.ngrok-free.app/route/")
 o=t.N
 n=A.av(["Content-Type","application/json"],o,o)
 s=3
 return A.a2(A.Zf(p,B.b5.pR(A.av(["project_name",b],o,o),null),n),$async$jG)
 case 3:m=e
-n=A.fm("https://33a9-185-244-21-92.ngrok-free.app/test/")
+n=A.fm("https://9293-77-232-164-34.ngrok-free.app/test/")
 p=A.av(["Content-Type","application/json"],o,o)
 s=4
 return A.a2(A.Zf(n,B.b5.pR(A.av(["init_data",c],o,t.f),null),p),$async$jG)
@@ -46336,7 +46336,7 @@ var $async$jF=A.X(function(c,d){if(c===1)return A.T(d,r)
 while(true)switch(s){case 0:p=A.A_(b,!1,t.J1)
 o=t.z
 n=A.av(["max_amount",p.d,"amount_bridge",p.e,"min_time",p.f,"max_time",p.r,"route_id",p.a,"wallet_id",p.b,"client_id",p.c,"max_gas",p.w],o,o)
-o=A.fm("https://33a9-185-244-21-92.ngrok-free.app/run_bot/")
+o=A.fm("https://9293-77-232-164-34.ngrok-free.app/run_bot/")
 q=t.N
 q=A.av(["Content-Type","application/json"],q,q)
 s=2
@@ -46347,7 +46347,7 @@ A.Pp.prototype={
 jF(a,b){return this.Wr(0,b)},
 Wr(a,b){var s=0,r=A.W(t.j),q,p,o,n,m
 var $async$jF=A.X(function(c,d){if(c===1)return A.T(d,r)
-while(true)switch(s){case 0:p=A.fm("https://33a9-185-244-21-92.ngrok-free.app/wallet/")
+while(true)switch(s){case 0:p=A.fm("https://9293-77-232-164-34.ngrok-free.app/wallet/")
 o=t.N
 n=A.av(["Content-Type","application/json"],o,o)
 s=3
