@@ -46334,7 +46334,7 @@ var $async$jF=A.X(function(c,d){if(c===1)return A.T(d,r)
 while(true)switch(s){case 0:p=A.tT(b,!1,t.J1)
 o=t.z
 n=A.ax(["max_amount",p.d,"amount_bridge",p.e,"min_time",p.f,"max_time",p.r,"route_id",p.a,"wallet_id",p.b,"client_id",p.c,"max_gas","maxGas","init_data","initData"],o,o)
-o=A.fM("https://rebels-air-bot.ru/run_bot/")
+o=A.fM("asodasdjasj")
 q=t.N
 q=A.ax(["Content-Type","application/json"],q,q)
 s=2
